@@ -27,12 +27,12 @@ Tăng khả năng nhận diện chi tiết và tách rõ ràng vùng ảnh cần
 Công thức toán học:
 Otsu tìm ngưỡng t sao cho phương sai giữa các lớp được tối đa hóa:
 <img width="417" height="66" alt="Image" src="https://github.com/user-attachments/assets/0b4f2c81-0ef3-4d58-a566-c0b830e41ad7" /> <br>
+ω 1,ω 2: Xác suất của 2 lớp (pixel < t và pixel ≥ t). <br>
+μ 1,μ 2: Giá trị trung bình của 2 lớp.<br>
 Ví dụ:
 Giả sử ngưỡng Otsu tính được t=120, pixel có giá trị r=150 sẽ được gán thành 1 (trắng), còn r=90 sẽ thành 0 (đen).
 Code chính:
 <img width="776" height="144" alt="Image" src="https://github.com/user-attachments/assets/10f080b8-3ae1-44c4-bdd4-8be28dd278df" /> <br>
-ω 1,ω 2: Xác suất của 2 lớp (pixel < t và pixel ≥ t). <br>
-μ 1,μ 2: Giá trị trung bình của 2 lớp.<br>
 2. Thuật toán K-Means (K-Means Clustering)<br>
 Mục đích: <br>
 Phân đoạn ảnh màu thành k cụm dựa trên sự tương đồng về màu (RGB).<br>
