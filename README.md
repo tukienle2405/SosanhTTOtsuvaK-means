@@ -49,7 +49,7 @@ Code chính:<br>
 <img width="688" height="50" alt="Image" src="https://github.com/user-attachments/assets/46c1c6b6-9292-479d-baf9-d7a850b4493b" /> <br>
 <img width="870" height="69" alt="Image" src="https://github.com/user-attachments/assets/17b9e3bc-0bb7-4d09-ab5d-540c1bfebcaa" /> <br>
 <img width="778" height="37" alt="Image" src="https://github.com/user-attachments/assets/c45bb66e-b39d-4231-a9bb-7babc1542786" /> <br>
-# So sách: <br>
+# So sánh: <br>
 1. Nguyên lý hoạt động<br>
 Otsu: <br>
 Dùng histogram của ảnh xám để tìm một ngưỡng duy nhất <br>
