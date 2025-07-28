@@ -19,13 +19,13 @@ NumPy: Dùng để chuyển ảnh thành mảng số học (np.asarray) và th�
 Scikit-Image (skimage.filters.threshold_otsu): Dùng để tính ngưỡng Otsu tự động. <br>
 Matplotlib (pyplot): Dùng để hiển thị ảnh gốc và ảnh đã phân ngưỡng trực quan trên Python. <br>
 
-# Chi tiết các phép biến đổi & công thức
-1. Thuật toán Otsu (Otsu Thresholding)
-Mục đích:
-Tự động tìm ngưỡng t để phân tách đối tượng (foreground) và nền (background) trong ảnh xám.
-Tăng khả năng nhận diện chi tiết và tách rõ ràng vùng ảnh cần quan tâm.
-Công thức toán học:
-Otsu tìm ngưỡng t sao cho phương sai giữa các lớp được tối đa hóa:
+# Chi tiết các phép biến đổi & công thức <br>
+1. Thuật toán Otsu (Otsu Thresholding) <br>
+Mục đích: <br>
+Tự động tìm ngưỡng t để phân tách đối tượng (foreground) và nền (background) trong ảnh xám.<br>
+Tăng khả năng nhận diện chi tiết và tách rõ ràng vùng ảnh cần quan tâm.<br>
+Công thức toán học:<br>
+Otsu tìm ngưỡng t sao cho phương sai giữa các lớp được tối đa hóa:<br>
 <img width="417" height="66" alt="Image" src="https://github.com/user-attachments/assets/0b4f2c81-0ef3-4d58-a566-c0b830e41ad7" /> <br>
 ω 1,ω 2: Xác suất của 2 lớp (pixel < t và pixel ≥ t). <br>
 μ 1,μ 2: Giá trị trung bình của 2 lớp.<br>
